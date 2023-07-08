@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma&family=Montserrat:wght@200&family=Padyakke+Expanded+One&family=Quicksand:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Atma', cursive;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Padyakke Expanded One', cursive;
+    font-family: 'Quicksand', sans-serif;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.head img{
+    height: 80px;
+    width: 80px;
+}
+.name{
+    font-size: 18px;
+}
+
+.head{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 90px 0px 90px;
+}
+
+.head ul li{
+    display: inline;
+    margin: 0px 10px;
+}
+.head ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.logname{
+    display: inline-flex;
+    align-items: center;
+}
+.enroll-button{
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    height: 37px;
+    width: 105px;
+    border-radius: 5px;
+    color: white;
+    background-image: linear-gradient(to bottom right, rgb(240, 48, 240), rgb(137, 70, 247));
+}
+.login-name{
+    color: white;
+    font-size: 32px;
+    margin-left: 130px;
+    margin-top: 50px;
+    color: rgb(222, 157, 230);
+}
+.full-box{
+    background-color: rgb(8, 0, 41);
+    height: 270px;
+    width: 370px;
+    margin-left: 130px;
+    border-radius: 23px;
+    padding: 20px;
+    align-items: center;
+    padding: 60px;
+    margin-top: 30px;
+}
+.box input{
+    width: 100%;
+    height: 45px;
+    margin-bottom: 15px;
+    border: none;
+    background-color: rgb(18, 10, 56);
+    border-radius: 7px;
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(112, 111, 111);
+    padding-left: 10px ;
+}
+
+.ndline{
+    display: flex;
+    color: white;
+    font-size: 13.5px;
+    justify-content: space-between;
+}
+.ndline input{
+    height: 20px;
+    width: 20px;
+    color: rgb(18, 10, 56);
+    accent-color: rgb(18, 10, 56);
+}
+.chkbox{
+    display: flex;
+    margin-top: 10px;
+}
+.fp{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.fp a{
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+button[type="submit"] {
+    height: 45px;
+    width: 100%;
+    margin-top: 40px;
+    border: 1px solid rgb(153, 0, 255);
+    border-radius: 7px;
+    background: transparent;
+    color: white;
+    font-size: 16px;
+    font-weight: 550;
+}
+.reg{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: white;
+}
+.reg a{
+    text-decoration: none;
+}
